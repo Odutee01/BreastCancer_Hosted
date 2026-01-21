@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breast Cancer Prediction</title>
+</head>
+<body>
+    <h2>Breast Cancer Prediction</h2>
+    <form action="/predict" method="post">
+        <input type="number" step="any" name="radius" placeholder="Radius" required><br><br>
+        <input type="number" step="any" name="texture" placeholder="Texture" required><br><br>
+        <button type="submit">Predict</button>
+    </form>
+    <h3>{{ prediction }}</h3>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+
+Name: Odutayo Oluwatimilehin Christopher 
+
+Matric Number: 22CG031900
+
+Machine Learning Algorithm Used: 
+Neural Network (PyTorch)
+- Architecture: 3-layer fully connected network (2 → 16 → 8 → 1)
+- Activation Functions: ReLU + Sigmoid
+- Loss Function: Binary Cross-Entropy (BCELoss)
+- Optimizer: Adam (lr=0.01)
+- Task: Binary Classification (Benign vs Malignant)
+
+Features Used:
+1. radius_mean (feature 0)
+2. texture_mean (feature 1)
+3. perimeter_mean (feature 2)
+4. area_mean (feature 3)
+5. smoothness_mean (feature 4)
+
+Model Persistence Method Used: 
+PyTorch (.pth format) + Pickle (scaler.pkl)
+
+Live URL of the Hosted Application: 
+https://breastcancer22cg123.streamlit.app/
+
+GitHub Repository Link: 
+https://github.com/Odutee01/BreastCancer_Hosted
+
